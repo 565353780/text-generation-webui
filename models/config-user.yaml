@@ -32,6 +32,7 @@ TheBloke_guanaco-65B-GPTQ$:
   compress_pos_emb: 1
   alpha_value: 1
   gpu_memory_0: 6000
+  low_vram: false
 guanaco-7B.ggmlv3.q8_0.bin$:
   loader: llama.cpp
   cpu_memory: 0
@@ -134,6 +135,7 @@ guanaco-65B.ggmlv3.q8_0.bin$:
   compress_pos_emb: 1
   alpha_value: 1
   gpu_memory_0: 0
+  low_vram: false
 guanaco-65B.ggmlv3.q2_K.bin$:
   loader: llama.cpp
   cpu_memory: 0
