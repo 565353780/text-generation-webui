@@ -11,7 +11,7 @@ conda activate textgen
 ## Run
 
 ```bash
-./demo.sh
+./run.sh
 ```
 
 ## Enjoy it~
