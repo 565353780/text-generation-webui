@@ -1,7 +1,7 @@
 cd ..
 git clone https://github.com/oobabooga/text-generation-webui textgen
 
-cp ./text-generation-webui/characters/* ./textgen/characters/
+cp ./text-generation-webui/characters/instruction-following/* ./textgen/characters/instruction-following/
 cp ./text-generation-webui/models/config-user.yaml ./textgen/models/config-user.yaml
 
 cd textgen
