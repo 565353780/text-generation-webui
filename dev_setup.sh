@@ -13,5 +13,7 @@ pip uninstall -y llama-cpp-python
 pip install -U torch torchvision torchaudio
 pip install -r requirements.txt --upgrade
 
+pip install -U transformers
+
 pip uninstall -y llama-cpp-python
 CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python --no-cache-dir
