@@ -10,7 +10,7 @@ git pull
 pip uninstall -y exllama
 pip uninstall -y llama-cpp-python
 
-pip3 install -U torch torchvision torchaudio
+pip install -U torch torchvision torchaudio
 pip install -r requirements.txt --upgrade
 
 pip uninstall -y llama-cpp-python
