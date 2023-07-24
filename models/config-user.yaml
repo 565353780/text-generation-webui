@@ -162,7 +162,7 @@ guanaco-65B.ggmlv3.q2_K.bin$:
   n_batch: 512
   no_mmap: false
   mlock: false
-  n_gpu_layers: 15
+  n_gpu_layers: 10
   n_ctx: 2048
   llama_cpp_seed: 0.0
   gpu_split: ''
