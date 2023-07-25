@@ -487,3 +487,40 @@ Wizard-Vicuna-30B-Uncensored.ggmlv3.q2_K.bin$:
   compress_pos_emb: 1
   alpha_value: 1
   gpu_memory_0: 0
+llama-2-70b.ggmlv3.q2_K.bin$:
+  loader: llama.cpp
+  cpu_memory: 0
+  auto_devices: false
+  disk: false
+  cpu: false
+  bf16: false
+  load_in_8bit: false
+  trust_remote_code: false
+  load_in_4bit: false
+  compute_dtype: float16
+  quant_type: nf4
+  use_double_quant: false
+  wbits: None
+  groupsize: None
+  model_type: llama
+  pre_layer: 0
+  triton: false
+  desc_act: false
+  no_inject_fused_attention: false
+  no_inject_fused_mlp: false
+  no_use_cuda_fp16: false
+  threads: 16
+  n_batch: 512
+  no_mmap: false
+  low_vram: true
+  mlock: false
+  n_gpu_layers: 15
+  n_ctx: 2048
+  n_gqa: 8
+  rms_norm_eps: 1.0e-05
+  llama_cpp_seed: 0.0
+  gpu_split: ''
+  max_seq_len: 2048
+  compress_pos_emb: 1
+  alpha_value: 1
+  gpu_memory_0: 0
