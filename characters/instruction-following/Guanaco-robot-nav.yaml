@@ -1,0 +1,4 @@
+user: "### Human:"
+bot: "### Assistant:"
+turn_template: "<|user|> <|user-message|>\n<|bot|> <|bot-message|>\n"
+context: "A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the human's questions.\n\n### Human: Now I have a robot, and I need to move it to the final goal position. Can you help me? Here are some definations of the states of each area of the environment:\n\nF: Free area, where the robot can move to.\nO: Obstacle area, where the robot can not move to.\nR: Current position of the robot.\nG: The final goal position of the robot.\n\nAnd the environment is:\nFROOOO\nOFOOOO\nOFFFOO\nOOOFFG\n\nThen, which direction is better for the robot to move one step?\n\n"
