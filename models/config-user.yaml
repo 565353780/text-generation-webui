@@ -405,9 +405,9 @@ llama-2-70b-chat.ggmlv3.q2_K.bin$:
   threads: 16
   n_batch: 512
   no_mmap: false
-  low_vram: false
+  low_vram: true
   mlock: false
-  n_gpu_layers: 6
+  n_gpu_layers: 15
   n_ctx: 2048
   llama_cpp_seed: 0.0
   gpu_split: ''
@@ -415,6 +415,8 @@ llama-2-70b-chat.ggmlv3.q2_K.bin$:
   compress_pos_emb: 1
   alpha_value: 1
   gpu_memory_0: 0
+  n_gqa: 8
+  rms_norm_eps: 1.0e-05
 Wizard-Vicuna-13B-Uncensored.ggmlv3.q8_0.bin$:
   loader: llama.cpp
   cpu_memory: 0
