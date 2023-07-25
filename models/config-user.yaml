@@ -162,7 +162,7 @@ guanaco-65B.ggmlv3.q2_K.bin$:
   n_batch: 512
   no_mmap: false
   mlock: false
-  n_gpu_layers: 10
+  n_gpu_layers: 15
   n_ctx: 2048
   llama_cpp_seed: 0.0
   gpu_split: ''
@@ -170,7 +170,9 @@ guanaco-65B.ggmlv3.q2_K.bin$:
   compress_pos_emb: 1
   alpha_value: 1
   gpu_memory_0: 0
-  low_vram: false
+  low_vram: true
+  n_gqa: 0
+  rms_norm_eps: 0
 guanaco-33B.ggmlv3.q8_0.bin$:
   loader: llama.cpp
   cpu_memory: 0
