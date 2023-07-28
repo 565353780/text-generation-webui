@@ -1,2 +1,4 @@
 cd ../textgen
-python server.py --listen
+python server.py \
+	--chat \
+	--listen
