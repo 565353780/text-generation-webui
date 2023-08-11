@@ -550,7 +550,7 @@ llama-2-7B-Guanaco-QLoRA-GPTQ$:
   disk: false
   cpu: false
   trust_remote_code: false
-  wbits: '4'
+  wbits: '8'
   groupsize: None
   triton: false
   desc_act: false
