@@ -14,4 +14,10 @@ conda activate textgen
 ./run.sh
 ```
 
+## Log
+
+```bash
+./log.sh <lora-folder-name>
+```
+
 ## Enjoy it~
