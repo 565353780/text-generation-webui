@@ -7,6 +7,11 @@ cp ./text-generation-webui/models/config-user.yaml ./textgen/models/config-user.
 cd textgen
 git pull
 
+mkdir repositories
+cd repositories
+git clone https://github.com/johnsmith0031/alpaca_lora_4bit
+cd ..
+
 pip uninstall -y exllama
 pip uninstall -y llama-cpp-python
 
@@ -14,7 +19,6 @@ pip install -U torch torchvision torchaudio
 pip install -r requirements.txt --upgrade
 
 pip install -U git+https://github.com/huggingface/transformers.git
-pip install -U git+https://github.com/huggingface/peft.git@70af02a2bca5a63921790036b2c9430edf4037e2
 pip install -U git+https://github.com/sterlind/GPTQ-for-LLaMa.git@lora_4bit
 
 pip uninstall -y llama-cpp-python
