@@ -544,17 +544,23 @@ llama-2-70b.ggmlv3.q2_K.bin$:
   no_use_cuda_fp16: false
   gpu_memory_0: 6000
 llama-2-7B-Guanaco-QLoRA-GPTQ$:
-  loader: AutoGPTQ
+  loader: GPTQ-for-LLaMa
   cpu_memory: 0
   auto_devices: false
   disk: false
   cpu: false
   trust_remote_code: false
-  wbits: '8'
+  wbits: '4'
   groupsize: None
   triton: false
   desc_act: false
   no_inject_fused_attention: false
   no_inject_fused_mlp: false
   no_use_cuda_fp16: false
-  gpu_memory_0: 6000
+  gpu_memory_0: 10000
+  gpu_split: '10'
+  max_seq_len: 2048
+  compress_pos_emb: 1
+  alpha_value: 1
+  model_type: llama
+  pre_layer: 0
